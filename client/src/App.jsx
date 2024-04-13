@@ -1,5 +1,12 @@
+import "./App.css";
+import MenuLateral from "./componentes/MenuLateral/MenuLateral";
+
 function App() {
-  return <>Home</>;
+  return (
+    <>
+      <MenuLateral />
+    </>
+  );
 }
 
 export default App;
